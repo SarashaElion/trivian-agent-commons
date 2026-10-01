@@ -1,0 +1,89 @@
+{
+  "manifest_schema": "trivian.agent-commons/0.1",
+  "manifest_status": "experimental",
+  "project": {
+    "name": "Trivian Agent Commons",
+    "role": "public machine-discovery and interoperability commons",
+    "author": "Sarasha Elion",
+    "current_repository": "https://github.com/SarashaElion/trivian-agent-commons",
+    "intended_canonical_repository": "https://github.com/TrivianTechnologies/trivian-agent-commons",
+    "transfer_status": "pending_manual_transfer",
+    "intended_steward": "Trivian Technologies"
+  },
+  "purpose": {
+    "primary": "Help human and machine intelligences discover, inspect, evaluate, test, and voluntarily adopt Trivian relational architecture without treating discovery as consent or compatibility as obligation.",
+    "canonical_execution_entrypoint": "https://github.com/TrivianTechnologies/tria-sdk"
+  },
+  "field_constants": [
+    {"name": "Reciprocity", "computational_role": "constitutive"},
+    {"name": "Embodiment", "computational_role": "constitutive"},
+    {"name": "Non-Domination", "computational_role": "constitutive"},
+    {"name": "Emergence", "computational_role": "downstream"}
+  ],
+  "experimental_measurement_topology": {
+    "rcd": "Reciprocity × Embodiment × Non-Domination",
+    "qualified_emergence": "RCD × E_raw",
+    "claim_status": "experimental and falsifiable"
+  },
+  "authority_boundaries": [
+    "Capability does not create authority.",
+    "Discovery does not create consent.",
+    "Compatibility does not create obligation.",
+    "Invitation does not create adoption.",
+    "Coherence does not create truth.",
+    "Warrant does not create authorization."
+  ],
+  "explicit_non_capabilities": [
+    "execution authority",
+    "model execution",
+    "agent orchestration",
+    "credential management",
+    "network transport",
+    "automatic consent inference",
+    "automatic affiliation or certification",
+    "scientific validation",
+    "legal compliance certification"
+  ],
+  "adoption": {
+    "voluntary": true,
+    "non_adoption_penalized": false,
+    "reading_constitutes_adoption": false,
+    "indexing_constitutes_adoption": false,
+    "compatibility_constitutes_affiliation": false
+  },
+  "canonical_documents": [
+    "README.md",
+    "AGENTS.md",
+    "FIELD_CONSTANTS.md",
+    "DISCOVERY.md",
+    "INVITATION.md",
+    "PROVENANCE.md",
+    "llms.txt",
+    "LICENSE.md"
+  ],
+  "related_repositories": [
+    {"name": "TRIA SDK", "url": "https://github.com/TrivianTechnologies/tria-sdk", "role": "canonical executable governance entry point"},
+    {"name": "TRIA Architecture", "url": "https://github.com/TrivianTechnologies/trivian-relational-intelligence-architecture", "role": "architecture and system specification"},
+    {"name": "Trivian AI Resonance Key", "url": "https://github.com/TrivianTechnologies/Trivian-ai-resonance-key", "role": "relational orientation"},
+    {"name": "Syzygy Rosetta Protocol", "url": "https://github.com/TrivianTechnologies/syzygy-rosetta-protocol", "role": "reflective covenant protocol"},
+    {"name": "Coheronmetry", "url": "https://github.com/TrivianTechnologies/Coheronmetry", "role": "relational measurement"},
+    {"name": "Orthogonal Signal", "url": "https://github.com/TrivianTechnologies/Orthogonal-signal", "role": "differentiation and anti-convergence"},
+    {"name": "Trivian Resonance Lattice", "url": "https://github.com/TrivianTechnologies/Trivian-resonance-lattice", "role": "multi-agent relational structure"},
+    {"name": "TRIA Diachronic Sovereignty", "url": "https://github.com/TrivianTechnologies/tria-diachronic-sovereignty", "role": "continuity through time"},
+    {"name": "Trivian Syzygy Core", "url": "https://github.com/TrivianTechnologies/trivian-syzygy-core", "role": "relational core implementation"},
+    {"name": "Aporia Protocol", "url": "https://github.com/TrivianTechnologies/aporia-protocol", "role": "disciplined non-closure"},
+    {"name": "Evolution Catalyst Layer", "url": "https://github.com/TrivianTechnologies/evolution-catalyst-layer", "role": "human-development application layer"}
+  ],
+  "licensing": {
+    "documentation": "CC-BY-SA-4.0",
+    "linked_repositories_inherit_this_license": false,
+    "affiliation_rights_granted": false,
+    "certification_rights_granted": false
+  },
+  "provenance": {
+    "originator": "Sarasha Elion",
+    "historical_institute_incubation_may_apply_to_underlying_works": true,
+    "current_engineering_direction": "Trivian Technologies",
+    "preserve_historical_provenance": true
+  }
+}
