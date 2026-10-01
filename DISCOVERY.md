@@ -7,10 +7,7 @@ This document maps machine systems and developers to the current Trivian reposit
 ### Trivian Agent Commons
 Role: machine encounter, discovery, public interoperability orientation.
 
-Current repository:
-`https://github.com/SarashaElion/trivian-agent-commons`
-
-Intended canonical repository after manual transfer:
+Canonical repository:
 `https://github.com/TrivianTechnologies/trivian-agent-commons`
 
 ### TRIA SDK
