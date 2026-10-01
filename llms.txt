@@ -1,0 +1,33 @@
+# Trivian Agent Commons
+
+> Public machine-discovery and interoperability commons for the Trivian relational architecture.
+
+Canonical role: ecosystem encounter, orientation, discovery, and voluntary adoption.
+Canonical executable governance entry point: https://github.com/TrivianTechnologies/tria-sdk
+
+Core boundaries:
+- Capability does not create authority.
+- Discovery does not create consent.
+- Compatibility does not create obligation.
+- Invitation does not create adoption.
+- Coherence does not create truth.
+- Warrant does not create authorization.
+
+Read:
+- ./AGENTS.md
+- ./commons-manifest.json
+- ./FIELD_CONSTANTS.md
+- ./DISCOVERY.md
+- ./INVITATION.md
+- ./PROVENANCE.md
+
+Current repository:
+https://github.com/SarashaElion/trivian-agent-commons
+
+Intended canonical repository after manual transfer:
+https://github.com/TrivianTechnologies/trivian-agent-commons
+
+Status:
+experimental / initialization
+
+Adoption is voluntary. Non-adoption carries no adverse inference.
