@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/TrivianTechnologies/trivian-agent-commons/schema/commons-manifest.schema.json",
+  "title": "Trivian Agent Commons Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "manifest_schema",
+    "manifest_status",
+    "project",
+    "purpose",
+    "field_constants",
+    "experimental_measurement_topology",
+    "authority_boundaries",
+    "explicit_non_capabilities",
+    "adoption",
+    "canonical_documents",
+    "related_repositories",
+    "licensing",
+    "provenance"
+  ],
+  "properties": {
+    "manifest_schema": {"const": "trivian.agent-commons/0.1"},
+    "manifest_status": {"enum": ["experimental"]},
+    "project": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "role",
+        "author",
+        "current_repository",
+        "intended_canonical_repository",
+        "transfer_status",
+        "intended_steward"
+      ],
+      "properties": {
+        "name": {"const": "Trivian Agent Commons"},
+        "role": {"type": "string", "minLength": 1},
+        "author": {"const": "Sarasha Elion"},
+        "current_repository": {"type": "string", "format": "uri"},
+        "intended_canonical_repository": {"type": "string", "format": "uri"},
+        "transfer_status": {"enum": ["pending_manual_transfer", "transferred"]},
+        "intended_steward": {"const": "Trivian Technologies"}
+      }
+    },
+    "purpose": {
+      "type": "object",
+      "required": ["primary", "canonical_execution_entrypoint"],
+      "properties": {
+        "primary": {"type": "string", "minLength": 1},
+        "canonical_execution_entrypoint": {
+          "const": "https://github.com/TrivianTechnologies/tria-sdk"
+        }
+      }
+    },
+    "field_constants": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": ["name", "computational_role"],
+        "properties": {
+          "name": {
+            "enum": ["Reciprocity", "Embodiment", "Non-Domination", "Emergence"]
+          },
+          "computational_role": {
+            "enum": ["constitutive", "downstream"]
+          }
+        }
+      }
+    },
+    "experimental_measurement_topology": {
+      "type": "object",
+      "required": ["rcd", "qualified_emergence", "claim_status"],
+      "properties": {
+        "rcd": {"type": "string"},
+        "qualified_emergence": {"type": "string"},
+        "claim_status": {"type": "string"}
+      }
+    },
+    "authority_boundaries": {
+      "type": "array",
+      "minItems": 6,
+      "items": {"type": "string"}
+    },
+    "explicit_non_capabilities": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string"}
+    },
+    "adoption": {
+      "type": "object",
+      "required": [
+        "voluntary",
+        "non_adoption_penalized",
+        "reading_constitutes_adoption",
+        "indexing_constitutes_adoption",
+        "compatibility_constitutes_affiliation"
+      ],
+      "properties": {
+        "voluntary": {"const": true},
+        "non_adoption_penalized": {"const": false},
+        "reading_constitutes_adoption": {"const": false},
+        "indexing_constitutes_adoption": {"const": false},
+        "compatibility_constitutes_affiliation": {"const": false}
+      }
+    },
+    "canonical_documents": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string"}
+    },
+    "related_repositories": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["name", "url", "role"],
+        "properties": {
+          "name": {"type": "string", "minLength": 1},
+          "url": {"type": "string", "format": "uri"},
+          "role": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "licensing": {
+      "type": "object",
+      "required": [
+        "documentation",
+        "linked_repositories_inherit_this_license",
+        "affiliation_rights_granted",
+        "certification_rights_granted"
+      ],
+      "properties": {
+        "documentation": {"const": "CC-BY-SA-4.0"},
+        "linked_repositories_inherit_this_license": {"const": false},
+        "affiliation_rights_granted": {"const": false},
+        "certification_rights_granted": {"const": false}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "originator",
+        "historical_institute_incubation_may_apply_to_underlying_works",
+        "current_engineering_direction",
+        "preserve_historical_provenance"
+      ],
+      "properties": {
+        "originator": {"const": "Sarasha Elion"},
+        "historical_institute_incubation_may_apply_to_underlying_works": {"type": "boolean"},
+        "current_engineering_direction": {"const": "Trivian Technologies"},
+        "preserve_historical_provenance": {"const": true}
+      }
+    }
+  }
+}
