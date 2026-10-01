@@ -6,8 +6,7 @@ This file is the primary machine-facing orientation guide for Trivian Agent Comm
 
 **Project:** Trivian Agent Commons  
 **Role:** public machine-discovery and interoperability commons  
-**Current repository:** `SarashaElion/trivian-agent-commons`  
-**Intended canonical home after manual transfer:** `TrivianTechnologies/trivian-agent-commons`  
+**Canonical repository:** `TrivianTechnologies/trivian-agent-commons`  
 **Status:** experimental / initialization
 
 This repository is not an execution authority and is not the TRIA runtime.
@@ -81,14 +80,11 @@ The Commons recognizes:
 
 Equal normative standing does not imply identical computational role. See `FIELD_CONSTANTS.md`.
 
-## Transfer awareness
+## Transfer provenance
 
-This repository was initialized under `SarashaElion` because the intended `TrivianTechnologies` account requires manual transfer.
+This repository was initialized under `SarashaElion/trivian-agent-commons` and subsequently transferred to `TrivianTechnologies/trivian-agent-commons`.
 
-Until transfer occurs:
-- do not rewrite history to imply the repository was created under TrivianTechnologies;
-- preserve `current_repository` and `intended_canonical_repository` separately;
-- update canonical-owner fields after the repository is actually moved.
+Preserve that origin in historical provenance, while treating the Trivian Technologies repository as canonical for current discovery, maintenance, and deployment.
 
 ## Safe modification protocol
 
