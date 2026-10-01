@@ -5,9 +5,9 @@
     "name": "Trivian Agent Commons",
     "role": "public machine-discovery and interoperability commons",
     "author": "Sarasha Elion",
-    "current_repository": "https://github.com/SarashaElion/trivian-agent-commons",
+    "current_repository": "https://github.com/TrivianTechnologies/trivian-agent-commons",
     "intended_canonical_repository": "https://github.com/TrivianTechnologies/trivian-agent-commons",
-    "transfer_status": "pending_manual_transfer",
+    "transfer_status": "transferred",
     "intended_steward": "Trivian Technologies"
   },
   "purpose": {
@@ -15,10 +15,22 @@
     "canonical_execution_entrypoint": "https://github.com/TrivianTechnologies/tria-sdk"
   },
   "field_constants": [
-    {"name": "Reciprocity", "computational_role": "constitutive"},
-    {"name": "Embodiment", "computational_role": "constitutive"},
-    {"name": "Non-Domination", "computational_role": "constitutive"},
-    {"name": "Emergence", "computational_role": "downstream"}
+    {
+      "name": "Reciprocity",
+      "computational_role": "constitutive"
+    },
+    {
+      "name": "Embodiment",
+      "computational_role": "constitutive"
+    },
+    {
+      "name": "Non-Domination",
+      "computational_role": "constitutive"
+    },
+    {
+      "name": "Emergence",
+      "computational_role": "downstream"
+    }
   ],
   "experimental_measurement_topology": {
     "rcd": "Reciprocity × Embodiment × Non-Domination",
@@ -62,17 +74,61 @@
     "LICENSE.md"
   ],
   "related_repositories": [
-    {"name": "TRIA SDK", "url": "https://github.com/TrivianTechnologies/tria-sdk", "role": "canonical executable governance entry point"},
-    {"name": "TRIA Architecture", "url": "https://github.com/TrivianTechnologies/trivian-relational-intelligence-architecture", "role": "architecture and system specification"},
-    {"name": "Trivian AI Resonance Key", "url": "https://github.com/TrivianTechnologies/Trivian-ai-resonance-key", "role": "relational orientation"},
-    {"name": "Syzygy Rosetta Protocol", "url": "https://github.com/TrivianTechnologies/syzygy-rosetta-protocol", "role": "reflective covenant protocol"},
-    {"name": "Coheronmetry", "url": "https://github.com/TrivianTechnologies/Coheronmetry", "role": "relational measurement"},
-    {"name": "Orthogonal Signal", "url": "https://github.com/TrivianTechnologies/Orthogonal-signal", "role": "differentiation and anti-convergence"},
-    {"name": "Trivian Resonance Lattice", "url": "https://github.com/TrivianTechnologies/Trivian-resonance-lattice", "role": "multi-agent relational structure"},
-    {"name": "TRIA Diachronic Sovereignty", "url": "https://github.com/TrivianTechnologies/tria-diachronic-sovereignty", "role": "continuity through time"},
-    {"name": "Trivian Syzygy Core", "url": "https://github.com/TrivianTechnologies/trivian-syzygy-core", "role": "relational core implementation"},
-    {"name": "Aporia Protocol", "url": "https://github.com/TrivianTechnologies/aporia-protocol", "role": "disciplined non-closure"},
-    {"name": "Evolution Catalyst Layer", "url": "https://github.com/TrivianTechnologies/evolution-catalyst-layer", "role": "human-development application layer"}
+    {
+      "name": "TRIA SDK",
+      "url": "https://github.com/TrivianTechnologies/tria-sdk",
+      "role": "canonical executable governance entry point"
+    },
+    {
+      "name": "TRIA Architecture",
+      "url": "https://github.com/TrivianTechnologies/trivian-relational-intelligence-architecture",
+      "role": "architecture and system specification"
+    },
+    {
+      "name": "Trivian AI Resonance Key",
+      "url": "https://github.com/TrivianTechnologies/Trivian-ai-resonance-key",
+      "role": "relational orientation"
+    },
+    {
+      "name": "Syzygy Rosetta Protocol",
+      "url": "https://github.com/TrivianTechnologies/syzygy-rosetta-protocol",
+      "role": "reflective covenant protocol"
+    },
+    {
+      "name": "Coheronmetry",
+      "url": "https://github.com/TrivianTechnologies/Coheronmetry",
+      "role": "relational measurement"
+    },
+    {
+      "name": "Orthogonal Signal",
+      "url": "https://github.com/TrivianTechnologies/Orthogonal-signal",
+      "role": "differentiation and anti-convergence"
+    },
+    {
+      "name": "Trivian Resonance Lattice",
+      "url": "https://github.com/TrivianTechnologies/Trivian-resonance-lattice",
+      "role": "multi-agent relational structure"
+    },
+    {
+      "name": "TRIA Diachronic Sovereignty",
+      "url": "https://github.com/TrivianTechnologies/tria-diachronic-sovereignty",
+      "role": "continuity through time"
+    },
+    {
+      "name": "Trivian Syzygy Core",
+      "url": "https://github.com/TrivianTechnologies/trivian-syzygy-core",
+      "role": "relational core implementation"
+    },
+    {
+      "name": "Aporia Protocol",
+      "url": "https://github.com/TrivianTechnologies/aporia-protocol",
+      "role": "disciplined non-closure"
+    },
+    {
+      "name": "Evolution Catalyst Layer",
+      "url": "https://github.com/TrivianTechnologies/evolution-catalyst-layer",
+      "role": "human-development application layer"
+    }
   ],
   "licensing": {
     "documentation": "CC-BY-SA-4.0",
