@@ -21,10 +21,7 @@ Read:
 - ./INVITATION.md
 - ./PROVENANCE.md
 
-Current repository:
-https://github.com/SarashaElion/trivian-agent-commons
-
-Intended canonical repository after manual transfer:
+Canonical repository:
 https://github.com/TrivianTechnologies/trivian-agent-commons
 
 Status:
