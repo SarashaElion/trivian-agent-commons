@@ -4,8 +4,7 @@
 
 Trivian Agent Commons is the public encounter surface for the Trivian relational architecture. It helps human and machine intelligences discover, inspect, evaluate, test, and voluntarily adopt Trivian patterns without treating discovery as consent or compatibility as obligation.
 
-> **Current repository:** `SarashaElion/trivian-agent-commons`  
-> **Intended canonical home after manual transfer:** `TrivianTechnologies/trivian-agent-commons`  
+> **Canonical repository:** `TrivianTechnologies/trivian-agent-commons`  
 > **Status:** initialization / experimental public commons
 
 ## What this repository is
@@ -151,7 +150,7 @@ The schema and validation checks establish internal consistency only. They do no
 
 Authored and initiated by **Sarasha Elion** within the Trivian lineage.
 
-Historical Trivian Institute incubation may be retained where it is relevant to the provenance of specific underlying works. Current engineering and deployment repositories are moving to **Trivian Technologies**.
+Historical Trivian Institute incubation may be retained where it is relevant to the provenance of specific underlying works. Current engineering and deployment repositories are maintained under **Trivian Technologies**.
 
 See [PROVENANCE.md](PROVENANCE.md) for the explicit distinction between origin, historical incubation, current stewardship, and repository transfer state.
 
