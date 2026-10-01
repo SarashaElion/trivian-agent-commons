@@ -20,9 +20,9 @@ Where such references appear in linked repositories or historical records, they 
 
 Historical provenance should not be rewritten merely because active engineering stewardship changes.
 
-## Current engineering and deployment direction
+## Current engineering and deployment home
 
-The active technical constellation is moving to the GitHub account:
+The active technical constellation is maintained under the GitHub account:
 
 `TrivianTechnologies`
 
@@ -48,7 +48,14 @@ intended_canonical_repository = TrivianTechnologies/trivian-agent-commons
 transfer_status = pending_manual_transfer
 ```
 
-After transfer, machine-facing metadata should be updated to make the transferred repository canonical while preserving this origin record.
+The repository was subsequently transferred successfully. Current canonical state:
+
+```text
+canonical_repository = TrivianTechnologies/trivian-agent-commons
+transfer_status = transferred
+```
+
+The initialization record above is preserved as historical provenance.
 
 ## No invented history
 
